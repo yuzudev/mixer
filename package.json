@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "description": "will be @yuzuru/mixer in npm or something idk",
   "main": "dist/index.js",
-  "scripts": {},
-  "keywords": ["mixer", "typescript"],
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mixer",
+    "typescript"
+  ],
   "author": "Yuzuru",
   "license": "Apache 2.0",
   "devDependencies": {
+    "mocha": "^10.2.0",
     "typescript": "^5.1.3"
   }
 }

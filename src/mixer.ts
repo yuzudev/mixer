@@ -31,7 +31,7 @@ export function mix<
   // @ts-ignore fix
   ignore?: Array<keyof T['prototype']>
 ): Struct<T, U> {
-  return apply(struct, structToApply) as Struct<T, U>;
+  return apply(structToApply, struct) as Struct<T, U>;
 }
 
 export type Struct<ToMix = {}, Final = {}> = Final extends new (
