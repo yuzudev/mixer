@@ -1,0 +1,13 @@
+{
+  "name": "@yuzuru/mixer",
+  "version": "1.0.0",
+  "description": "will be @yuzuru/mixer in npm or something idk",
+  "main": "dist/index.js",
+  "scripts": {},
+  "keywords": ["mixer", "typescript"],
+  "author": "Yuzuru",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
